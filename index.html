@@ -1,9 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>카드 뉴스 API 연동 실습</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/card.css" />
+    <script src="js/card.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="wrap">
+      <div class="card-wrap">
+        <a href="#" class="card">
+          <div class="thumbnail">
+            <img src="images/thumbnail-img.png" alt="썸네일" />
+          </div>
+          <div class="info">
+            <div class="avatar">
+              <img src="images/avatar.png" alt="아바타" />
+            </div>
+            <div class="desc">
+              <span class="title">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum totam esse voluptate, facere temporibus earum vitae
+                aspernatur?
+              </span>
+              <div class="nickname">
+                Lorem, ipsum.
+                <span>
+                  <img src="images/icon-mark.svg" alt="인증마크" />
+                </span>
+              </div>
+              <span class="count-publish">조회수 100만회 · 2일전</span>
+              <div class="badge">
+                <img src="images/badge.png" alt="배지" />
+              </div>
+            </div>
+            <div class="icon-more">
+              <img src="images/icon-more.svg" alt="더보기" />
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </body>
 </html>
