@@ -32,14 +32,14 @@ window.addEventListener("load", function () {
         </div>
         <div class="info">
          <div class="avatar">
-          <img src="${path}/${item.avartar}" alt="아바타" />
+          <img src="${path}/${item.avatar}" alt="아바타" />
          </div>
          <div class="desc">
           <span class="title">
            ${item.title}
           </span>
           <div class="nickname">
-           ${item.nickname}
+          ${item.nickname}
            <span>
             <img src="${path}/${item.mark}" alt="인증마크" />
            </span>
@@ -62,5 +62,6 @@ window.addEventListener("load", function () {
     // html 배치
     const cardWrapElement = document.querySelector(".card-wrap");
     cardWrapElement.innerHTML = tag;
+    return cardWrapElement;
   }
 });
